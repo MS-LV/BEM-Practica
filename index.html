@@ -1,0 +1,182 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+    <!-- Заголовок страницы в браузере -->
+    <title>Методология БЭМ</title>
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Кодировка страницы -->
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+    <header class="header">
+        <div class="content">
+            <div class="header__body">
+                <div class="header__logo"><img src="img/img/logo_header.png" alt=""></div>
+                <div class="header__text ">
+                    <h1 class="header__title">Clear, smart, attractive design </h1>
+                    <p class="header__subtext">for your app, logo, website</p>
+                </div>
+                <div class="header__button button">READ MORE</div>
+            </div>
+        </div>
+    </header>
+    <nav class="menu">
+        <div class="container">
+            <div class="menu__body menu">
+                <div class="menu__item item active">HOME</div>
+                <div class="menu__item item">ABOUT</div>
+                <div class="menu__item item"> US PORTFOLIO</div>
+                <div class="menu__item item">CONTACT</div>
+            </div>
+        </div>
+    </nav>
+    <div class="about">
+        <div class="content">
+            <div class="about__body">
+                <div class="about__header">
+                    <div class="about__title title">ABOUT</div>
+                    <div class="about__text">We specialize in contemporary, functional, and stunning websites with
+                        design
+                        that really brings that "WOW" factor.
+                        In our design process, we make sure to stay one step ahead of the latest trends,
+                        never forgetting to abide by key web standards.</div>
+                </div>
+                <div class="about__row">
+                    <div class="about__column">
+                        <div class="item-about">
+                            <div class="item-about__icon">
+                                <img src="img/about/01.png" alt="" />
+                            </div>
+                            <div class="item-about__title">WEB</div>
+                            <div class="item-about__text">We tend to deliver unique and functional design, through
+                                innovation and creativity.</div>
+                        </div>
+                    </div>
+                    <div class="about__column">
+                        <div class="item-about">
+                            <div class="item-about__icon">
+                                <img src="img/about/02.png" alt="" />
+                            </div>
+                            <div class="item-about__title">iOS AND ANDROID</div>
+                            <div class="item-about__text">We seek to bring new businesses and customers closer together
+                                through valuable insights and proper targeting.</div>
+                        </div>
+                    </div>
+                    <div class="about__column">
+                        <div class="item-about">
+                            <div class="item-about__icon">
+                                <img src="img/about/03.png" alt="" />
+                            </div>
+                            <div class="item-about__title">MARKETING</div>
+                            <div class="item-about__text">We’ll help you establish the right goals and build the right
+                                paths. Success depends on setting the right intention.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="content">
+            <div class="portfolio__column">
+                <div class="portfolio__title title">PORTFOLIO</div>
+                <div class="container">
+                    <nav class="portfolio__menu menu">
+                        <div class="portfolio__item item active">ALL</div>
+                        <div class="portfolio__item item"> WEB </div>
+                        <div class="portfolio__item item">APPS</div>
+                        <div class="portfolio__item item">OTHER</div>
+                    </nav>
+                </div>
+            </div>
+            <div class="portfolio__row">
+                <div class="portfolio_block">
+                    <img src="img/img/Background.png" alt="">
+                </div>
+                <div class="portfolio_block">
+                    <img src="img/img/Background.png" alt="">
+                </div>
+                <div class="portfolio_block">
+                    <img src="img/img/Background.png" alt="">
+                </div>
+                <div class="portfolio_block">
+                    <img src="img/img/Background.png" alt="">
+                </div>
+                <div class="portfolio_block">
+                    <img src="img/img/Background.png" alt="">
+                </div>
+                <div class="portfolio_block">
+                    <img src="img/img/Background.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="portfolio__button button">READ MORE</div>
+    </div>
+    <div class="our">
+        <div class="content">
+            <div class="our__items">
+                <div class="our__text">Our partners</div>
+                <div class="our__body">
+                    <div class="our__icon"><img src="img/icons/ico_1.png" alt="logg"></div>
+                    <div class="our__icon"><img src="img/icons/ico__2.png" alt="Archiq"></div>
+                    <div class="our__icon"><img src="img/icons/ico__3.png" alt="thombsoon"></div>
+                    <div class="our__icon"><img src="img/icons/ico__4.png" alt="Alex"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="content">
+            <div class="contact__body">
+                <div class="contact__title title">CONTACT</div>
+                <div class="contact__profil">
+                    <div class="contact__areas">
+                        <form action="www.google.com" method="POST" class="contact__personals">
+                            <input type="text" placeholder="Write your name" class="contact__name" maxlength="20">
+                            <input type="mail" placeholder="Write: 'Email adress'" class="contact__mail">
+                        </form>
+                        <textarea placeholder="Write comment" class="contact__comment"></textarea>
+                        <input type="submit" value="SEND" class="contact__button " onclick="alert('sending')">
+                    </div>
+                    <div class="contact__description">
+                        <div class="contact__text">Have an idea for a project? Just looking to
+                            explore and see the possibilities?
+                            I'm here to help.</div>
+                        <div class="contact__sublabel">Postma Elena</div>
+                        <div class="contact__messager">
+                            <div class="img-contact"><img src="img/icons/Facebook.png" alt=""></div>
+                            <div class="img-contact"><img src="img/icons/IN.png" alt=""></div>
+                        </div>
+                        <div class="contact__address">e-mail: <span> postma.elena@gmail.com</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="content">
+            <div class="footer__body">
+                <div class="footer__logo">
+                    <img src="img/img/Layer 33 copy 3.png" alt="" class="">
+                </div>
+                <nav class="footer__nav">
+                    <div class="footer__list">Home </div>
+                    <div class="footer__list">Facebook</div>
+                    <div class="footer__list"> Linkedin</div>
+                    <div class="footer__list">Contact</div>
+                </nav>
+                <div class="footer__copy">© 2015. All Rights Reserved</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
